@@ -20,14 +20,12 @@ There is one more piece of housekeeping we need to take care of before we get st
 
 Type the following lines of code in the **Console** in RStudio filling in your name and email address.
 
-`library(usethis)
-use_git_config(user.name="your name", user.email="your email")`
+`library(usethis)`
+`use_git_config(user.name="your name", user.email="your email")`
 
 For example, mine would be  
 
-`
-library(usethis)
-use_git_config(user.name="Yue Jiang", user.email="yue.jiang@duke.edu")
-`
+`library(usethis)`
+`use_git_config(user.name="Yue Jiang", user.email="yue.jiang@duke.edu")`
 
 **RStudio and GitHub can now commmunicate with each other and you are ready to do the exercise!**
